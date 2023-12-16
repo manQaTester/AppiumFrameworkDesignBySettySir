@@ -18,7 +18,7 @@ public class AndroidActions extends AppiumUtils{
 	
 		this.driver = driver;
 	}
-	
+	// this is man singh
 	public void longPressAction(WebElement ele)
 	{
 		((JavascriptExecutor)driver).executeScript("mobile: longClickGesture",
